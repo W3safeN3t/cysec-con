@@ -28,7 +28,7 @@ const Footer = () => {
             <div className='flex flex-col space-y-3 py-2'> 
               <a href="#">Become a Sponsor</a>
               <a href="https://tinyurl.com/WeSafeNet" target="_blank">Join Our Community</a>
-              <a href="#" className='text-[#B22222]'>Get Ticket</a>
+              <a href="https://tinyurl.com/cysec-con" target="_blank" className='text-[#B22222]'>Get Ticket</a>
             </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ const HeroSection = () => {
 
         <div className='flex items-center py-5 md:m-0'>
           <button className='w-full md:w-auto text-white border border-white font-FiraSans font-bold p-3 rounded-md hover:bg-[#FDBFBF] hover:border-transparent flex justify-center items-center gap-2'>
-            <a href="" className='font-FiraSans font-normal text-[26px] text-center'>Get Your Ticket</a>
+            <a href="https://tinyurl.com/cysec-con" target="_blank" className='font-FiraSans font-normal text-[26px] text-center'>Get Your Ticket</a>
             <img src={ticket} alt=""/>
           </button>
         </div>

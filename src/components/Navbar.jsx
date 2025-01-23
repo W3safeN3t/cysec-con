@@ -27,7 +27,7 @@ const Navbar = () => {
               <a href="https://tinyurl.com/WeSafeNet" target="_blank" className="hover:bg-[#FDBFBF] rounded-md p-2">Join Our Community</a>
             </li>
             <button className="text-white bg-[#6B0000] rounded-md p-3 hover:bg-[#FDBFBF]">
-              <a href="#">Get Your Ticket</a>
+              <a href="https://tinyurl.com/cysec-con" target="_blank">Get Your Ticket</a>
             </button>
           </ul>
         </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             <a href="https://tinyurl.com/WeSafeNet" target="_blank" className="hover:bg-[#FDBFBF] rounded-md p-2">Join Our Community</a>
           </li>
           <button className="text-white bg-[#6B0000] rounded-md p-2 hover:bg-[#FDBFBF] flex justify-start items-center">
-            <a href="#">Get Your Ticket</a>
+            <a href="https://tinyurl.com/cysec-con" target="_blank">Get Your Ticket</a>
           </button>
         </ul>
       </div>
