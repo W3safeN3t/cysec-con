@@ -1,0 +1,170 @@
+.container{
+    width: 100%;
+    background-image: url(../../assets/Frame1.png);
+    background-repeat: no-repeat;
+}
+
+.aboutCard{
+    background: rgba(253, 191, 191, 1);
+    width: 80%;
+    margin: 4rem auto;
+    border-radius: 16px;
+    padding: 4rem 2rem;
+    position: relative;
+}
+
+.aboutCard h5{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.aboutCard p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.2px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.star{
+    position: absolute;
+    top: 5%;
+    right: 83%;
+    /* left: 0; */
+    /* margin-left: 6rem;
+    margin-top: 1rem; */
+}
+
+.star img{
+    width: 100%;
+}
+
+.expect{
+    width: 100%;
+    background: rgba(191, 195, 242, 1);
+    padding: 3rem 0;
+    position: relative;
+}
+
+.expect h5{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.expectCard{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.cardWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .cardImage{
+    width: 30%;
+} */
+
+.cardText{
+    width: 70%;
+}
+
+.cardText h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.2px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 0.7rem;
+}
+
+.cardText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.2px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cardImage img{
+    width: 100%;
+}
+
+.halfStar{
+    position: absolute;
+    right: 0;
+    margin-top: -4rem;
+}
+
+.halfStar img{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+
+    .aboutCard{
+        width: 90%;
+        padding: 3rem 2rem;
+    }
+    
+    .aboutCard h5{
+        font-size: 30px;
+    }
+    
+    .aboutCard p{
+        font-size: 20px;
+    }
+
+    .expect h5{
+        font-size: 28px;
+    }
+
+    .expectCard{
+        display: block;
+        width: 80%;
+        margin-bottom: 0rem;
+        justify-content: center;
+    }
+
+    .cardWrap{
+        margin-bottom: 2rem;
+    }
+
+    .cardText h6{
+        font-size: 20px;
+    }
+    
+    .cardText p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px){    
+    .aboutCard h5{
+        font-size: 28px;
+    }
+    
+    .aboutCard p{
+        font-size: 18px;
+    }
+
+
+    .cardText h6{
+        font-size: 20px;
+    }
+    
+    .cardText p{
+        font-size: 16px;
+    }
+}

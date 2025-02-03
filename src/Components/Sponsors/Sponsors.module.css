@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    margin: 4rem 0;
+    background: rgba(255, 245, 204, 1);
+    padding: 2rem 0;
+}
+
+.container h5{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.logos img{
+    width: 80%;
+}
+
+@media (max-width: 480px){
+    .wrap{
+        gap: 1rem;
+    }
+}
