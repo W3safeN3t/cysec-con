@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'ElectroHolic'; 
+    src: url('./assets/Fonts/ElectroHolic-z8z8G.ttf') format('truetype');
+  }
