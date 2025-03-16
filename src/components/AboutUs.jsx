@@ -2,7 +2,7 @@ import React from "react";
 import { FaAward, FaBriefcase, FaFlag, FaMicrophone, FaUsers, FaTools, FaGamepad, FaShoppingBag } from "react-icons/fa";
 import bgImage from "../assets/images/Frame1.png";
 import star from "../assets/images/Star.png";
-import halfstar from "../assets/images/Halfstar.png"
+import Halfstar from "../assets/images/HalfStar.png"
 
 const About = () => {
   const items = [
@@ -49,7 +49,7 @@ const About = () => {
           ))}
         </div>
         <div className="absolute -bottom-14 -right-0">
-            <img src={halfstar} alt="Half-star"/>
+            <img src={Halfstar} alt="Half-star"/>
           </div>
       </div>
     </div>
