@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-6">
-          <ul className="flex items-center gap-8 text-[20px] font-FiraSans font-normal">
+          <ul className="flex items-center gap-8 md:gap-12 text-[20px] font-FiraSans font-normal">
             <li>
               <a href="#about-us" className="hover:bg-[#FDBFBF] rounded-md p-2">About Us</a>
             </li>

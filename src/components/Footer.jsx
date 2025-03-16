@@ -9,13 +9,12 @@ import { FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='bg-[#BFC3F2] px-5 py-10 flex lg:flex-row md:flex-col sm:flex-col md:items-center justify-evenly'>
-      <div className='flex items-center md:justify-between md:gap-10 pb-8 md:pb-0'>
-        <img src={shield} alt="" />
-        <img src={logo} alt="" />
-        <img src={safenet} alt="" />
-      </div>
-
+    <div className='bg-[#BFC3F2] px-5 py-4 md:py-10 flex flex-col md:flex-col lg:flex-row md:items-center justify-evenly'>
+      <div className='flex md:justify-between gap-10 pb-8 md:pb-0'>
+  <img src={shield} alt="" className="w-16 h-16 sm:w-20 sm:h-20" />
+  <img src={logo} alt="" className="h-16 sm:h-20" />
+  <img src={safenet} alt="" className="w-16 h-16 sm:w-24 sm:h-20" />
+</div>
       <div className='flex flex-col md:flex-row md:gap-20 px-5 md:px-0'>
         <div>
           <h1 className='text-[#B22222] font-FiraSans font-medium text-[28px]'>Quick Links</h1>

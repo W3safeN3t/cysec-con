@@ -1,5 +1,5 @@
 import React from 'react';
-import { partners } from '../constants/index';
+import { partners } from '../assets/data/index';
 import star6 from '../assets/images/Star 6.png';
 
 const Partners = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel';
+import Carousel from '../utils/constant/Carousel';
 import img1 from '../assets/images/Gallery1.png';
 import img2 from '../assets/images/Gallery2.png';
 import img3 from '../assets/images/Gallery3.png';

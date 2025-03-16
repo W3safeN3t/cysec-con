@@ -7,12 +7,12 @@ import ticket from "../assets/images/ticket-icon.png";
 const HeroSection = () => {
   return (
     <div>
-      <div className='container mx-auto px-5 py-4 md:p-10 flex flex-col md:flex-row justify-between items-center'>
+      <div className='mx-auto p-4 md:p-10 flex flex-col md:gap-4 md:flex-row justify-between items-center'>
         <div>
           <h1 className='text-[20px] md:text-[25px] font-medium font-FiraSans'>
             <span className='text-[#6B0000]'>SafeNet Society</span> Presents
           </h1>
-          <h1 className='font-ElectroHolic text-[40px] md:text-[64px]'>
+          <h1 className='font-ElectroHolic text-[36px] md:text-[64px]'>
             CYSEC-CON 2025
           </h1>
           <h1 className='text-[24px] md:text-[64px] font-FiraSans font-bold leading-tight'>
