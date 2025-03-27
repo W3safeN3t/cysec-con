@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className='sticky top-0 z-50 bg-white py-0 font-FiraSans'>
-      <div className='flex justify-between items-center md:px-10'>
+      <div className='flex justify-between items-center md:px-16'>
         <div>
           <img src={logo} alt="logo" />
         </div>
