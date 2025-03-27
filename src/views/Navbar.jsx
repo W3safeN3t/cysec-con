@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <ul className="flex items-center gap-4 md:gap-4 text-[17px] font-FiraSans font-normal">
+          <ul className="flex items-center gap-4 md:gap-4 text-[16px] font-FiraSans font-normal">
             <li>
               <p className="hover:bg-[#FDBFBF] rounded-md p-2">
                 <a href="#about-us">About Us</a>
@@ -37,10 +37,13 @@ const Navbar = () => {
                 <a href="https://tinyurl.com/WeSafeNet" target="_blank">Join Our Community</a>
               </p>
             </li>
-            <button className="text-white bg-[#6B0000] rounded-md p-3 hover:bg-[#FDBFBF]">
-              <a href="https://tinyurl.com/cysec-con" target="_blank">Get Your Ticket</a>
-            </button>
           </ul>
+        </div>
+
+        <div className='hidden md:flex'>
+          <button className="text-white bg-[#6B0000] rounded-md p-3 hover:bg-[#B46060]">  
+              <a href="https://tinyurl.com/cysec-con" target="_blank">Get Your Ticket</a>
+          </button>
         </div>
 
         <div className="md:hidden flex items-center pr-6">
