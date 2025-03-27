@@ -24,7 +24,7 @@ const OurSpeakers = () => {
           <CategoryTabs category={category} setCategory={setCategory}/>
           <Carousel slidesPerPage={4} >
             {filteredSpeakers.map((speaker, index) => (
-              <div key={index} className="flex rounded-xl bg-white mt-4">
+              <div key={index} className="flex rounded-3xl bg-white mt-4">
                 <SpeakerCard speaker={speaker}/>
               </div>
             ))}
