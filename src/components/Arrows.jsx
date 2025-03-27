@@ -1,8 +1,6 @@
 import React from "react";
-import MultiCarousel from "react-multi-carousel";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // Lucide icons
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Left Arrow Component
 const CustomLeftArrow = ({ onClick }) => (
   <button
     onClick={onClick}
@@ -12,7 +10,6 @@ const CustomLeftArrow = ({ onClick }) => (
   </button>
 );
 
-// Right Arrow Component
 const CustomRightArrow = ({ onClick }) => (
   <button
     onClick={onClick}

@@ -2,19 +2,17 @@ import React from 'react';
 import shield from '../assets/images/cysec-shield.png';
 import logo from '../assets/images/cysec-logo.png';
 import safenet from '../assets/images/safenet-logo.png';
-import { FaInstagram } from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter, FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <div className='bg-[#BFC3F2] px-5 py-4 md:py-10 flex flex-col md:flex-col lg:flex-row md:items-center justify-evenly'>
-      <div className='flex md:justify-between gap-10 pb-8 md:pb-0'>
-  <img src={shield} alt="" className="w-16 h-16 sm:w-20 sm:h-20" />
-  <img src={logo} alt="" className="h-16 sm:h-20" />
-  <img src={safenet} alt="" className="w-16 h-16 sm:w-24 sm:h-20" />
-</div>
+      <div className='flex md:justify-between gap-10 pb-8 md:pb-5'>
+        <img src={shield} alt="" className="w-16 h-16 sm:w-20 sm:h-20" />
+        <img src={logo} alt="" className="h-16 sm:h-20" />
+        <img src={safenet} alt="" className="w-16 h-16 sm:w-24 sm:h-20" />
+      </div>
       <div className='flex flex-col md:flex-row md:gap-20 px-5 md:px-0'>
         <div>
           <h1 className='text-[#B22222] font-FiraSans font-medium text-[28px]'>Quick Links</h1>
@@ -23,6 +21,7 @@ const Footer = () => {
               <a href="#">Home</a>
               <a href="#about-us">About CYSEC CON</a>
               <a href="#our-speakers">Speakers</a>
+              <a href="https://forms.gle/EXLG3h6RmqKF4Cui8" target="_blank">CTF Registration</a>
             </div>
             <div className='flex flex-col space-y-3 py-2 text-[16px]'> 
               <a 

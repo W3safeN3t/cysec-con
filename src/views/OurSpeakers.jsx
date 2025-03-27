@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SpeakerCard from "../utils/constant/SpeakerCard";
+import SpeakerCard from "../components/SpeakerCard";
 import { speakers } from "../assets/data/index";
-import Carousel from "../utils/constant/Carousel";
-import CategoryTabs from "../utils/constant/CategoryTab";
+import Carousel from "../components/Carousel";
+import CategoryTabs from "../components/CategoryTab";
 
 const OurSpeakers = () => {
   const [category, setCategory] = useState("all");
@@ -20,8 +20,8 @@ const OurSpeakers = () => {
         </div>
       </div>
       <div className="pt-10 px-0 lg:px-0">
-        <div className="flex flex-col">
-          <CategoryTabs category={category} setCategory={setCategory} className="pb-4" />
+        <div className="flex flex-col p-4 md:p-0">
+          <CategoryTabs category={category} setCategory={setCategory}/>
           <Carousel slidesPerPage={4} >
             {filteredSpeakers.map((speaker, index) => (
               <div key={index} className="flex rounded-lg bg-white mt-4">

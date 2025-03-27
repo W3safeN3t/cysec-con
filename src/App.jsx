@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import AboutUs from "./components/AboutUs";
-import OurSpeakers from "./components/OurSpeakers";
-import Memories from "./components/Memories";
-import Footer from "./components/Footer";
-import Partners from "./components/Partners";
+import Navbar from "./views/Navbar";
+import HeroSection from "./views/HeroSection";
+import AboutUs from "./views/AboutUs";
+import OurSpeakers from "./views/OurSpeakers";
+import Memories from "./views/Memories";
+import Footer from "./views/Footer";
+import Partners from "./views/Partners";
 
 const App = () => {
   return (

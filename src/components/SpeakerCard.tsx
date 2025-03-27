@@ -1,24 +1,30 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const SpeakerCard = ({ speaker }) => {
   return (
-    <div className="rounded-lg shadow-lg group hover:shadow-2xl w-full h-full flex flex-col">
-      <div className="relative w-full h-72">
-        <img src={speaker.image} alt={speaker.name} className="w-full h-full object-cover rounded-t-lg" />
+    <div className="rounded-lg shadow-lg group hover:shadow-2xl flex flex-col">
+      <div className="relative">
+        <img src={speaker.image} alt={speaker.name} className="w-full"/>
         <div className="absolute bottom-4 right-4 flex flex-col space-y-2">
           {speaker.social.facebook && (
-            <a href={speaker.social.facebook} target="_blank" rel="noopener noreferrer" title="Facebook" className="bg-white rounded-full p-2 shadow">
+            <a href={speaker.social.facebook} target="_blank" rel="noopener noreferrer" title="Facebook" className="speaker-sm">
               <FaFacebook size={20} className="text-blue-600" />
             </a>
           )}
+          {speaker.social.twitter && (
+            <a href={speaker.social.twitter} target="_blank" rel="noopener noreferrer" title="Twitter" className="speaker-sm">
+              <FaXTwitter size={20} className="text-black-600" />
+            </a>
+          )}
           {speaker.social.instagram && (
-            <a href={speaker.social.instagram} target="_blank" rel="noopener noreferrer" title="Instagram" className="bg-white rounded-full p-2 shadow">
+            <a href={speaker.social.instagram} target="_blank" rel="noopener noreferrer" title="Instagram" className="speaker-sm">
               <FaInstagram size={20} className="text-pink-500" />
             </a>
           )}
           {speaker.social.github && (
-            <a href={speaker.social.github} target="_blank" rel="noopener noreferrer" title="GitHub" className="bg-white rounded-full p-2 shadow">
+            <a href={speaker.social.github} target="_blank" rel="noopener noreferrer" title="GitHub" className="speaker-sm">
               <FaGithub size={20} className="text-gray-800" />
             </a>
           )}

@@ -5,7 +5,7 @@ import star6 from '../assets/images/Star 6.png';
 const Partners = () => {
   return (
       <div className="bg-[#FFFFFF] py-10 px-6 md:px-16">
-        <div className="font-FiraSans font-medium text-[24px] md:text-[36px] pb-8 text-center">
+        <div className="font-FiraSans font-medium text-[#1D2EE7] text-[24px] md:text-[36px] pb-8 text-center">
           <p>Partner With Us</p>
         </div>
 
@@ -20,24 +20,29 @@ const Partners = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div >
-              <h3 className="font-medium text-[24px] text-[#1D2EE7] pb-3">Brand Visibility</h3>
-              <p className="font-normal text-[16px] text-[#433E3E] w-3/4 md:w-full">Exposure to a highly targeted audience through event marketing, website presence, and social media.</p>
-            </div>
-
             <div>
-              <h3 className="font-medium text-[24px] text-[#1D2EE7] pb-3">Networking Opportunities</h3>
-              <p className="font-normal text-[16px] text-[#433E3E] w-3/4 md:w-full">Connect with industry leaders, potential clients, and key decision-makers.</p>
+              <h3 className="title">Brand Visibility</h3>
+              <p className="text container md:container">
+                Exposure to a highly targeted audience through event marketing, website presence, and social media.
+              </p>
             </div>
-
             <div>
-              <h3 className="font-medium text-[24px] text-[#1D2EE7] pb-3">Lead Generation</h3>
-              <p className="font-normal text-[16px] text-[#433E3E] w-3/4 md:w-full">Collect high quality leads from engaged participants interested in your products/services.</p>
+              <h3 className="title">Networking Opportunities</h3>
+              <p className="text container md:container">
+                Connect with industry leaders, potential clients, and key decision-makers.
+              </p>
             </div>
-
             <div>
-              <h3 className="font-medium text-[24px] text-[#1D2EE7] pb-3">Media Coverage</h3>
-              <p className="font-normal text-[16px] text-[#433E3E] w-2/3 md:w-5/6">Feature in press releases, conference materials, and digital promotions.</p>
+              <h3 className="title">Lead Generation</h3>
+              <p className="text container md:container">
+                Collect high quality leads from engaged participants interested in your products/services.
+              </p>
+            </div>
+            <div>
+              <h3 className="title">Media Coverage</h3>
+              <p className="text container md:container">
+                Feature in press releases, conference materials, and digital promotions.
+              </p>
             </div>
           </div>
         </div>

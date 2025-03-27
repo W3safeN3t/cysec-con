@@ -1,21 +1,10 @@
 import React from "react";
-import { FaAward, FaBriefcase, FaFlag, FaMicrophone, FaUsers, FaTools, FaGamepad, FaShoppingBag } from "react-icons/fa";
 import bgImage from "../assets/images/Frame1.png";
 import star from "../assets/images/Star.png";
 import Halfstar from "../assets/images/HalfStar.png"
+import {items} from "../assets/data/index";
 
 const About = () => {
-  const items = [
-    { icon: <FaAward className="text-white text-3xl" />, title: "Awards & Recognitions", text: "Celebrate outstanding achievements in cybersecurity with exclusive awards." },
-    { icon: <FaBriefcase className="text-white text-3xl" />, title: "Career Villages", text: "Connect with mentors, polish your skills, and unlock pathways to your dream cybersecurity career." },
-    { icon: <FaFlag className="text-white text-3xl" />, title: "CTF Challenge", text: "Put your skills to the test in thrilling cybersecurity challenges." },
-    { icon: <FaMicrophone className="text-white text-3xl" />, title: "Experts Talks", text: "Learn from top cybersecurity leaders and innovators." },
-    { icon: <FaUsers className="text-white text-3xl" />, title: "Networking", text: "Build valuable connections with industry professionals." },
-    { icon: <FaTools className="text-white text-3xl" />, title: "Workshop", text: "Master practical techniques through hands-on training." },
-    { icon: <FaGamepad className="text-white text-3xl" />, title: "Side Attraction", text: "Fun hands-on activities that explore real-world hacking techniques." },
-    { icon: <FaShoppingBag className="text-white text-3xl" />, title: "Swag & Merchandise", text: "Take home exclusive event-themed goodies." },
-  ];
-
   return (
     <div>
       <div className="md:p-20 py-16 bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
