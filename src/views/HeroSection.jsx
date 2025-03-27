@@ -7,7 +7,7 @@ import ticket from "../assets/images/ticket-icon.png";
 const HeroSection = () => {
   return (
     <div>
-      <div className='mx-auto p-6 md:px-20 flex flex-col md:flex-row justify-between items-center'>
+      <div className='p-6 md:px-20 flex flex-col md:flex-row justify-between items-center'>
         <div>
           <h1 className='text-[20px] md:text-[24px] font-medium font-FiraSans'>
             <span className='text-[#6B0000]'>SafeNet Society</span> Presents
