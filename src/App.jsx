@@ -6,6 +6,7 @@ import Memories from "./views/Memories";
 import Footer from "./views/Footer";
 import Partners from "./views/Partners";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Footer />
 
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
