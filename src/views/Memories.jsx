@@ -4,7 +4,7 @@ import { images } from '../assets/data/index';
 
 const Memories = () => {
   return (
-    <div className="bg-[#FFF5CC] p-8">
+    <div className="bg-[#FFF5CC] sm:p-8">
       <div className="pb-4">
         <p className="font-medium text-[16px]">Events Gallery</p>
         <h1 className="font-medium text-[24px] md:text-[36px]">Past Event Memories</h1>
