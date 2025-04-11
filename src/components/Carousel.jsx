@@ -8,7 +8,7 @@ const Carousel = ({ children, slidesPerPage }) => {
     superLargeDesktop: { breakpoint: { max: 4000, min: 1440 }, items: slidesPerPage },
     desktop: { breakpoint: { max: 1440, min: 1024 }, items: slidesPerPage },
     tablet: { breakpoint: { max: 1024, min: 600 }, items: 2 },
-    mobile: { breakpoint: { max: 600, min: 0 }, items: 1 },
+    mobile: { breakpoint: { max: 600, min: 0 }, items: slidesPerPage-2 },
   };
 
   return (
