@@ -5,6 +5,7 @@ import OurSpeakers from "./views/OurSpeakers";
 import Memories from "./views/Memories";
 import Footer from "./views/Footer";
 import Partners from "./views/Partners";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
