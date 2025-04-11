@@ -59,7 +59,7 @@ export const navItems = [
   export const speakers = [
     {
       image: Oluwat,
-      name: 'Bukola Adbullahi',
+      name: 'Oluwatumininu Olutayo',
       social: {
         facebook: '',
         instagram: '',
