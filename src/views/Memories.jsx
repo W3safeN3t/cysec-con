@@ -6,7 +6,7 @@ const Memories = () => {
   return (
     <div className="bg-[#FFF5CC] sm:p-6">
       <div className="pb-4">
-        <p className="font-medium text-[16px]">Events Gallery</p>
+        <p className="font-medium text-[20px]">Events Gallery</p>
         <h1 className="font-medium text-[24px] md:text-[36px]">Past Event Memories</h1>
       </div>
       <Carousel slidesPerPage={4}>
