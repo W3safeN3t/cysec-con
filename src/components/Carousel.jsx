@@ -7,13 +7,14 @@ const Carousel = ({ children, slidesPerPage }) => {
   const responsive = {
     superLargeDesktop: { breakpoint: { max: 4000, min: 1440 }, items: slidesPerPage },
     desktop: { breakpoint: { max: 1440, min: 1024 }, items: slidesPerPage },
-    tablet: { breakpoint: { max: 1024, min: 500 }, items: slidesPerPage/2 },
-    mobile: { breakpoint: { max: 500, min: 0 }, items: 1 },
+    tablet: { breakpoint: { max: 1024, min: 600 }, items: 2 },
+    mobile: { breakpoint: { max: 600, min: 0 }, items: 1 },
   };
 
   return (
     <MultiCarousel
       responsive={responsive}
+      scrollable
       swipeable
       draggable
       infinite
@@ -22,7 +23,7 @@ const Carousel = ({ children, slidesPerPage }) => {
       keyBoardControl
       customTransition="all 0.5s ease"
       transitionDuration={500}
-      containerClass="carousel-container relative w-full"
+      containerClass="carousel-container relative"
       itemClass="px-3 flex justify-center"
       customLeftArrow={<CustomLeftArrow />}
       customRightArrow={<CustomRightArrow />}

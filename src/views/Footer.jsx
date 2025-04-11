@@ -7,7 +7,7 @@ import { FaXTwitter, FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='bg-[#BFC3F2] px-5 py-4 md:py-10 flex flex-col md:flex-col lg:flex-row md:items-center justify-evenly'>
+    <div className='bg-[#BFC3F2] px-5 py-4 md:py-10 flex flex-col md:flex-col lg:flex-row md:items-center justify-evenly flex-wrap'>
       <div className='flex md:justify-between gap-10 pb-8 md:pb-5'>
         <img src={shield} alt="" className="w-16 h-16 sm:w-20 sm:h-20" />
         <img src={logo} alt="" className="h-16 sm:h-20" />

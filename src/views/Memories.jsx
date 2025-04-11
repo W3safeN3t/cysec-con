@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
-import {images} from '../assets/data/index';
+import { images } from '../assets/data/index';
 
 const Memories = () => {
   return (

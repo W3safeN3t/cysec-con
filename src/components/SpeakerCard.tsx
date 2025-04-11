@@ -4,9 +4,13 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const SpeakerCard = ({ speaker }) => {
   return (
-    <div className="rounded-lg shadow-lg group hover:shadow-2xl flex flex-col">
+    <div className=" bg-white rounded-2xl ">
       <div className="relative">
-        <img src={speaker.image} alt={speaker.name} className="w-full"/>
+        <img 
+          src={speaker.image} 
+          alt={speaker.name} 
+          className="w-full rounded-t-2xl h-96"
+        />
         <div className="absolute bottom-4 right-4 flex flex-col space-y-2">
           {speaker.social.facebook && (
             <a href={speaker.social.facebook} target="_blank" rel="noopener noreferrer" title="Facebook" className="speaker-sm">
@@ -30,7 +34,7 @@ const SpeakerCard = ({ speaker }) => {
           )}
         </div>
       </div>
-      <div className="p-4 flex-grow">
+      <div className="p-4 flex flex-col justify-between">
         <h2 className="font-FiraSans font-semibold text-[18px] mb-1">{speaker.name}</h2>
         <p className="font-FiraSans font-semibold text-[#433E3E] text-[14px] mb-4">{speaker.title}</p>
         <p className="font-FiraSans font-normal text-[#433E3E] text-[12px]">{speaker.description}</p>

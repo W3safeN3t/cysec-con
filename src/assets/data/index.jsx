@@ -1,10 +1,30 @@
-import Checker from '../images/Checker.png';
+import Seeker from '../images/Seeker.png';
+import Shortollabb from '../images/Shortollabb.png';
+import Paperless from '../images/Paperless.png';
+import Alx from '../images/Alx.png';
+import Moducode from '../images/Moducode.png';
+import Mavrest from '../images/Mavrest.png';
+import CSSSA from '../images/CSSSA.png';
+import GDGI from '../images/GDGI.png';
+import Ideate from '../images/Ideate.png';
+import CyberKairos from '../images/CyberKairos.png';
+import CyberPatron from '../images/CyberPatron.png';
+import Techpeaklab from '../images/Techpeaklab.png';
+import IEN from '../images/IEN.jpg';
+import LCU from '../images/LCU.png';
 import Adeyinka from '../images/Adeyinka.png';
 import Amir from '../images/Al-Amir.png';
 import Daniel from '../images/Daniel.png';
 import Elizabeth from '../images/Elizabeth.png';
 import Oluwaseun from '../images/Oluwaseun.png';
-import Oyekunle from '../images/Oyekunle.png';
+import Oyekunle from '../images/Oyekunle.jpeg';
+import Adesola from '../images/Adesola.jpg';
+import Olumayowa from '../images/Olumayowa.jpg';
+import Umar from '../images/Umar.jpg';
+import Bukola from '../images/Bukola.jpg';
+import Akinade from '../images/Akinadee.jpg';
+import Kikelomo from '../images/Kikelomo.png';
+import Oluwat from '../images/Oluwat.jpg';
 import img1 from '../images/Gallery1.png';
 import img2 from '../images/Gallery2.png';
 import img3 from '../images/Gallery3.png';
@@ -37,6 +57,80 @@ export const navItems = [
   ];
 
   export const speakers = [
+    {
+      image: Oluwat,
+      name: 'Bukola Adbullahi',
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/loccdlocs',
+      },
+      category: 'Hosts',
+    },
+    {
+      image: Kikelomo,
+      name: 'Aroyehun Kikelomo',
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/ar22793',
+      },
+      category: 'Hosts',
+    },
+    {
+      image: Akinade,
+      name: 'Akinade Bidemi John',
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/thariskyjohn',
+      },
+      category: 'Hosts',
+    },
+
+    {
+      image: Olumayowa,
+      name: 'Olúmáyòwá Akinkuehinmi',
+      description:
+        "Olúmáyòwá is a passionate tech enthusiast with a diverse career spanning enterprise networking, network security, and optical transport engineering. A dedicated community supporter, Olúmáyòwá instructs DevNet and Cyber Security courses at Cisco Networking Academy and is recognized as a Cisco Champion.",
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/akintunero',
+      },
+      category: 'Panelists',
+    }, 
+    {
+      image: Adesola,
+      name: 'Adesola Oguntimehin',
+      description:
+        "Adesola Oguntimehin is a seasoned Cybersecurity GRC professional and educator with extensive experience across diverse industries. She specializes in integrating technology and strategic frameworks to help organizations achieve regulatory compliance, drive growth, and mitigate risks effectively.",
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/Deejustdee',
+      },
+      category: 'Panelists',
+    }, 
+    {
+      image: Umar,
+      name: 'Umar Farouk Farouk',
+      description:
+        " Umar Farouk is currently the Cybersecurity Lead at Trade Modernisation Project Limited. He specializes in implementing risk informed frameworks, specifically the NIST RMF and has successfully driven the adoption of these frameworks, ensuring alignment with organizational goals and regulatory requirements.",
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: 'https://x.com/Cyber_GRC',
+      },
+      category: 'Panelists',
+    }, 
+
     {
       image: Elizabeth,
       name: 'Elizabeth Ekedoro',
@@ -121,14 +215,36 @@ export const navItems = [
       },
       category: 'Village Chiefs',
     },
+    {
+      image: Bukola,
+      name: 'Bukola Adbullahi',
+      title: '[~/GRC]',
+      description:
+        "Bukola Abdullahi is a dedicated Governance and Compliance Analyst with a strong focus on corporate governance, regulatory compliance, and policy development. She plays a vital role in ensuring that organizations operate within established legal and ethical frameworks while fostering accountability and transparency.",
+      social: {
+        facebook: '',
+        instagram: '',
+        github: '',
+        twitter: '',
+      },
+      category: 'Village Chiefs',
+    },
   ];
 
 export const partners = [
-    {image: Checker},
-    {image: Checker},
-    {image: Checker},
-    {image: Checker},
-    {image: Checker},
-    {image: Checker},
+    {image: Seeker},
+    {image: Shortollabb},
+    {image: Paperless},
+    {image: Alx},
+    {image: Moducode},
+    {image: Mavrest},
+    {image: Techpeaklab},
+    {image: CSSSA},
+    {image: Ideate},
+    {image: CyberKairos},
+    {image: CyberPatron},
+    {image: GDGI},
+    {image: LCU},
+    {image: IEN},
 ];
   
